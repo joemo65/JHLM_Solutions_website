@@ -15,6 +15,20 @@
         
         </asp:ContentPlaceHolder>
     </div>
+        <div>
+            <asp:ContentPlaceHolder ID="ContenPlaceHolder2" runat="server">
+
+            </asp:ContentPlaceHolder>
+        </div>
+    <div>
+        <asp:SiteMapPath ID="uxSiteMapPath" PathSeparator=" > " runat="server"></asp:SiteMapPath> 
+    </div>
+    <div>
+        <footer>
+            <asp:SiteMapDataSource ID="uxSiteMap" StartingNodeUrl="~/Home.aspx" ShowStartingNode="false" runat="server"></asp:SiteMapDataSource>
+            <asp:Menu ID="uxSiteMenu" DataSourceID="uxSiteMap" Orientation="Horizontal" runat="server"></asp:Menu>
+        </footer>
+    </div>
     </form>
 </body>
 </html>
