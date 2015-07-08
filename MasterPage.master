@@ -18,7 +18,7 @@
        </div>
         <div>
             <asp:Button CssClass="button" id="uxSoftwareDevelopmentButton" OnClick="uxSoftwareDevelopmentButton_Click" Text="Software" runat="server" Width="75" Height="75"></asp:Button>
-            <asp:Button CssClass="button" id="uxJ7StudiosButton" OnClick="uxJ7StudiosButton_Click" Text="J7 Studios" runat="server"  Width="75" Height="75"></asp:Button>
+            <asp:Button CssClass="button" id="uxJ7StudiosButton" OnClick="uxJ7StudiosButton_Click" Text="J4 Gaming" runat="server"  Width="75" Height="75"></asp:Button>
             <asp:Button CssClass="button" id="uxDeveloperButton" OnClick="uxDeveloperButton_Click" Text="Developer" runat="server"  Width="75" Height="75"></asp:Button>
             <asp:Button CssClass="button" id="uxLinksButton" OnClick="uxLinksButton_Click" Text="Links" runat="server"  Width="75" Height="75"></asp:Button>
         </div>

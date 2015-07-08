@@ -2,7 +2,7 @@
 <siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
     <siteMapNode url="~/Home.aspx" title="Home"  description="Home page">
        <siteMapNode url="~/SoftwareDevelopment.aspx" title="Software Development"  description="Software development page" />
-      <siteMapNode url="~/J7Studios.aspx" title="J7 Studios"  description="Game development page" />
+      <siteMapNode url="~/J4Gaming.aspx" title="J4 Gaming"  description="Game development page" />
       <siteMapNode url="~/Developer.aspx" title="Developer" description="Developer Information page" />
       <siteMapNode url="~/Links.aspx" title="Links"  description="links information page" />
       <siteMapNode url="~/About.aspx" title="About"  description="Developer information page" />

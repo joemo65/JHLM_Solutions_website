@@ -23,7 +23,7 @@
     </div>
     <div style="width:900px; margin:auto;">
         <asp:Button CssClass="home_button" Text="Software" OnClick="uxSoftwareDevelopmentHomeButton_Click" id="uxSoftwareDevelopmentHomeButton" runat="server"/>
-        <asp:Button CssClass="home_button" Text="J7Studios" OnClick="uxJ7StudiosHomeButton_Click" id="uxJ7StudiosHomeButton" runat="server" />
+        <asp:Button CssClass="home_button" Text="J4 Gaming" OnClick="uxJ7StudiosHomeButton_Click" id="uxJ7StudiosHomeButton" runat="server" />
         <asp:Button CssClass="home_button" Text="Developer" OnClick="uxDeveloperHomeButton_Click" id="uxDeveloperHomeButton" runat="server" />
         <asp:Button CssClass="home_button" Text="Links" OnClick="uxLinksHomeButton_Click" id="uxLinksHomeButton" runat="server" />
     </div>

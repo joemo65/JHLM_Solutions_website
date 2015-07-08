@@ -17,7 +17,7 @@ public partial class Home : System.Web.UI.Page
     }
     protected void uxJ7StudiosHomeButton_Click(object sender, EventArgs e)
     {
-        Response.Redirect("~/J7Studios.aspx");
+        Response.Redirect("~/J4Gaming.aspx");
     }
     protected void uxDeveloperHomeButton_Click(object sender, EventArgs e)
     {

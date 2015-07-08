@@ -1,13 +1,14 @@
-﻿<%@ Page Language="C#" MasterPageFile="~/MasterPage.master" AutoEventWireup="true" CodeFile="J7Studios.aspx.cs" Inherits="J7Studios" StylesheetTheme="J7StudiosTheme" %>
+﻿<%@ Page Language="C#" MasterPageFile="~/MasterPage.master" AutoEventWireup="true" CodeFile="J4Gaming.aspx.cs" Inherits="J7Studios" StylesheetTheme="J7StudiosTheme" %>
 
 
 <asp:Content ContentPlaceHolderID="head" runat="server">
-    <title>J7Studios</title>
+    <title>J4 Gaming</title>
     <link id="uxJ7StudiosStyleSheetLink" rel="stylesheet" href="~/App_Themes/J7StudiosTheme/J7StudiosStyleSheet.css" type="text/css" runat="server" />
 </asp:Content>
 <asp:Content ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <div class="center">
-        <asp:Image ID="uxJ7LogoImage" ImageUrl="~/App_Themes/logo_blue_gold.png" runat="server" width="600" Height="400"/>
+        <asp:Image ID="uxJ7LogoImage" ImageUrl="~/App_Themes/logo_j4.png" runat="server" width="600" Height="400"/>
+        <h1 style="font-size:450%; font-family:Arial; font-weight:bold; color:black;">Gaming</h1>
     </div>
     <div>  
         <h2>

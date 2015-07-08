@@ -20,7 +20,7 @@ public partial class MasterPage : System.Web.UI.MasterPage
     }
     protected void uxJ7StudiosButton_Click(object sender, EventArgs e)
     {
-        Response.Redirect("~/J7Studios.aspx");
+        Response.Redirect("~/J4Gaming.aspx");
     }
     protected void uxDeveloperButton_Click(object sender, EventArgs e)
     {
