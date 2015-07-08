@@ -11,4 +11,20 @@ public partial class Home : System.Web.UI.Page
     {
 
     }
+    protected void uxSoftwareDevelopmentHomeButton_Click(object sender, EventArgs e)
+    {
+        Response.Redirect("~/SoftwareDevelopment.aspx");
+    }
+    protected void uxJ7StudiosHomeButton_Click(object sender, EventArgs e)
+    {
+        Response.Redirect("~/J7Studios.aspx");
+    }
+    protected void uxDeveloperHomeButton_Click(object sender, EventArgs e)
+    {
+        Response.Redirect("~/Developer.aspx");
+    }
+    protected void uxLinksHomeButton_Click(object sender, EventArgs e)
+    {
+        Response.Redirect("~/Links.aspx");
+    }
 }

@@ -1,0 +1,43 @@
+﻿body {
+    background-color:white;
+    margin:0;
+    padding:0;
+}
+
+.center 
+{
+    width:50%;
+    margin:auto;
+    text-align:center;
+}
+
+.header
+{
+    background-color:black;
+    color:white;
+    margin:0;
+    padding:0;
+}
+
+.button
+{
+    background-color: black;
+    color: white;
+    border-color: transparent;
+    border-left-color: white;
+    text-align:center;
+}
+
+.home_button
+{
+    background-color:#1BCCFF;
+    border-collapse:collapse;
+    border-radius:10px;
+    border-color:black;
+    border-width:thick;
+    width: 200px;
+    height: 200px;
+    text-align:center;
+    font-size:x-large;
+    margin:10px;
+}

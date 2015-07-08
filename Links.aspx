@@ -7,4 +7,8 @@
     <div>
         <h1>Links</h1>
     </div>
+    <div>
+        <h2>GitHub</h2>
+        <h2>Developer Info</h2>
+    </div>
 </asp:Content>

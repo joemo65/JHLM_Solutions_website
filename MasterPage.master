@@ -4,15 +4,27 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-    <title>JLHM Solutions</title>
+    <title>JLHM Solutions</title> 
+    <link id="uxMasterStyleSheetLink" rel="stylesheet" href="~/App_Themes/MasterTheme/MasterStyleSheet.css" type="text/css" runat="server" />   
     <asp:ContentPlaceHolder id="head" runat="server">
+            
     </asp:ContentPlaceHolder>
 </head>
 <body>
     <form id="form1" runat="server">
+    <header class="header">
+        <div style="width:70%; float:left;">
+            <asp:ImageButton ID="uxJHLMLogoImage" ImageUrl="~/App_Themes/logo_blue.png" OnClick="uxJHLMLogoImage_Click" runat="server" Width="75"  Height="75"/>
+       </div>
+        <div>
+            <asp:Button CssClass="button" id="uxSoftwareDevelopmentButton" OnClick="uxSoftwareDevelopmentButton_Click" Text="Software" runat="server" Width="75" Height="75"></asp:Button>
+            <asp:Button CssClass="button" id="uxJ7StudiosButton" OnClick="uxJ7StudiosButton_Click" Text="J7 Studios" runat="server"  Width="75" Height="75"></asp:Button>
+            <asp:Button CssClass="button" id="uxDeveloperButton" OnClick="uxDeveloperButton_Click" Text="Developer" runat="server"  Width="75" Height="75"></asp:Button>
+            <asp:Button CssClass="button" id="uxLinksButton" OnClick="uxLinksButton_Click" Text="Links" runat="server"  Width="75" Height="75"></asp:Button>
+        </div>
+    </header>
     <div>
-        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
-        
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">      
         </asp:ContentPlaceHolder>
     </div>
         <div>
@@ -23,10 +35,12 @@
     <div>
         <asp:SiteMapPath ID="uxSiteMapPath" PathSeparator=" > " runat="server"></asp:SiteMapPath> 
     </div>
-    <div>
+    <div >
         <footer>
+            <div style="width:50%; margin:0 auto;">
+                <asp:Menu ID="uxSiteMenu" DataSourceID="uxSiteMap" Orientation="Horizontal" RenderingMode="Table" runat="server" Width="100%"></asp:Menu>
+            </div>
             <asp:SiteMapDataSource ID="uxSiteMap" StartingNodeUrl="~/Home.aspx" ShowStartingNode="false" runat="server"></asp:SiteMapDataSource>
-            <asp:Menu ID="uxSiteMenu" DataSourceID="uxSiteMap" Orientation="Horizontal" runat="server"></asp:Menu>
         </footer>
     </div>
     </form>

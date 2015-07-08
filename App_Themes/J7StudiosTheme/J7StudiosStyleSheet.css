@@ -1,0 +1,11 @@
+﻿body
+{
+    background-color: #2D2D30 !important;
+    color: white;
+}
+
+.center 
+{
+    margin: auto;
+    width: 50%;
+}
