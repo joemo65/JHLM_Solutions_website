@@ -19,6 +19,15 @@
     padding:0;
 }
 
+.footer
+{
+    border:solid;
+    border-color:transparent;
+    border-top-color:black;
+    background-color:#1BCCFF;
+    background-size:200px;
+}
+
 .button
 {
     background-color: black;

@@ -27,18 +27,17 @@
         <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">      
         </asp:ContentPlaceHolder>
     </div>
-        <div>
-            <asp:ContentPlaceHolder ID="ContenPlaceHolder2" runat="server">
-
-            </asp:ContentPlaceHolder>
-        </div>
+    <div style="height:200px">
+        <asp:ContentPlaceHolder ID="ContenPlaceHolder2" runat="server">
+        </asp:ContentPlaceHolder>
+    </div>
     <div>
         <asp:SiteMapPath ID="uxSiteMapPath" PathSeparator=" > " runat="server"></asp:SiteMapPath> 
     </div>
     <div >
-        <footer>
+        <footer class="footer">
             <div style="width:50%; margin:0 auto;">
-                <asp:Menu ID="uxSiteMenu" DataSourceID="uxSiteMap" Orientation="Horizontal" RenderingMode="Table" runat="server" Width="100%"></asp:Menu>
+                <asp:Menu ID="uxSiteMenu" DataSourceID="uxSiteMap" Orientation="Horizontal" RenderingMode="Table" runat="server" ForeColor="black" Width="100%"></asp:Menu>
             </div>
             <asp:SiteMapDataSource ID="uxSiteMap" StartingNodeUrl="~/Home.aspx" ShowStartingNode="false" runat="server"></asp:SiteMapDataSource>
         </footer>
